@@ -20,7 +20,7 @@ nav {
 .navbar-nav {
     margin: 0 0 0 auto;
     font-size: 25px;
-    font-weight: 600;
+    font-weight: 500;
     font-family: 'Open Sans', sans-serif;
     height: 100%;
 
@@ -31,10 +31,35 @@ nav {
 }
 
 .home-banner {
-    background: url(../images/Bell1.jpg) no-repeat center center;
+    background: url(../images/Curragh.jpg) no-repeat center center;
     background-size: cover;
     width: 100%;
-    height: 800px;
+    height: 750px;
+}
+
+.banner-text {
+
+height: 170px;
+width: 400px;
+background-color: rgba(103, 104, 102, 0.7);
+position: absolute;
+padding: 10px;
+margin-left: 368px;
+margin-top: 550px;
+
+color: #ffffff;
+
+text-align: center;
+}
+
+.banner h3 {
+    font-size: 60px;
+}
+
+.banner-text h2, h3 {
+    font-size: 200%;
+    vertical-align: middle;
+    padding-top: 20px;
 }
 
 .footer-seperator {
