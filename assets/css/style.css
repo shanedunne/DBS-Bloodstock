@@ -26,8 +26,28 @@ nav {
 
 }
 
+#navbar {
+    padding: 0;
+    margin: 0;
+}
+
 .navbar .nav-item a {
     color: #99c455 !important;
+    padding-top: 56px;
+
+}
+
+.navbar .nav-item a:hover {
+    color: #fafafa !important;
+    background-color: #99c455;
+}
+
+.nav-link {
+
+    height: 137px;
+    border-left: 1px solid #99c455;
+    border-bottom: 1px solid #99c455;
+
 }
 
 .home-banner {
