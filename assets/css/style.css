@@ -1,0 +1,50 @@
+
+/*----------------------------------------- Colors*/
+
+
+/*----------------------------------------- Header*/
+
+body {
+    font-family: 'Open sans', sans-serif;
+}
+
+nav {
+    padding: 0;
+}
+
+.navbar-brand {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-nav {
+    margin: 0 0 0 auto;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+
+}
+
+.navbar .nav-item a {
+    color: #99c455 !important;
+}
+
+.home-banner {
+    background: url(../images/Bell1.jpg) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+}
+
+.footer-seperator {
+    background-color: #686767;
+    height: 12px;
+    width: 100%;
+}
+
+footer {
+    height: 100px;
+    width: 100%;
+    background-color:#99c455;
+}
