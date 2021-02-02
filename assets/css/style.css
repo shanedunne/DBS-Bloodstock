@@ -54,8 +54,8 @@ nav {
 
 
 .carousel-item img {
-  width:640px;
-  height:36px;
+  height:800px;
+  object-fit: cover;
 }
 /*----------------------------------------- Footer*/
 
