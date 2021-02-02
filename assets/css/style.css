@@ -23,6 +23,7 @@ nav {
     font-weight: 500;
     font-family: 'Open Sans', sans-serif;
     height: 100%;
+    padding-bottom: 0;
 
 }
 
@@ -45,42 +46,18 @@ nav {
 .nav-link {
 
     height: 137px;
-    border-left: 1px solid #99c455;
-    border-bottom: 1px solid #99c455;
-
+    padding-bottom: 0;
+ 
 }
 
-.home-banner {
-    background: url(../images/Curragh.jpg) no-repeat center center;
-    background-size: cover;
-    width: 100%;
-    height: 750px;
+/*----------------------------------------- Banner*/
+
+
+.carousel-item img {
+  width:640px;
+  height:36px;
 }
-
-.banner-text {
-
-height: 170px;
-width: 400px;
-background-color: rgba(103, 104, 102, 0.7);
-position: absolute;
-padding: 10px;
-margin-left: 368px;
-margin-top: 550px;
-
-color: #ffffff;
-
-text-align: center;
-}
-
-.banner h3 {
-    font-size: 60px;
-}
-
-.banner-text h2, h3 {
-    font-size: 200%;
-    vertical-align: middle;
-    padding-top: 20px;
-}
+/*----------------------------------------- Footer*/
 
 .footer-seperator {
     background-color: #686767;

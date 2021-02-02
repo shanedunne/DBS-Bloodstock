@@ -9,3 +9,7 @@ the font was working
 
 ### logo image 
 logo image not showing up - i have verified my method with the CI tutorials and still not appearing
+
+### carousel
+originally set up banner using div boxes but wanted to ad more pictures
+height issue resolved with inline style 
