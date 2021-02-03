@@ -8,9 +8,7 @@ body {
     font-family: 'Open sans', sans-serif;
 }
 
-nav {
-    padding: 0;
-}
+
 
 .navbar-brand {
     padding: 0;
@@ -53,10 +51,11 @@ nav {
 /*----------------------------------------- Banner*/
 
 
-.carousel-item img {
-  height:800px;
-  object-fit: cover;
+.carousel-item .img-first {
+    object-fit: fill;
 }
+
+
 /*----------------------------------------- Footer*/
 
 .footer-seperator {
@@ -70,3 +69,43 @@ footer {
     width: 100%;
     background-color:#99c455;
 }
+
+/* 
+img .footer-logo {
+    height: 16px;
+    width: 18px;
+}
+Temporarily styled inline
+*/
+
+footer p {
+    padding-top: 20px;
+    text-decoration: underline;
+}
+
+/*----------------------------------------- contact page*/
+
+ img .silks-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 200px;
+}
+
+form {
+    display: inline-block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-form {
+    padding-bottom: 50px;
+    max-width: 50%;
+}
+
+.contact-form h2 {
+    text-align: center;
+}
+
