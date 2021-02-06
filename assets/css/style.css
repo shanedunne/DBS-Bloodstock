@@ -52,7 +52,7 @@ body {
 
 
 .carousel-item .img-first {
-    object-fit: fill;
+    object-fit: contain;
 }
 
 
@@ -79,13 +79,13 @@ Temporarily styled inline
 */
 
 footer p {
-    padding-top: 20px;
-    text-decoration: underline;
+    vertical-align: baseline;
+
 }
 
 /*----------------------------------------- contact page*/
 
- img .silks-img {
+ .silks-img {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -93,19 +93,46 @@ footer p {
     height: 200px;
 }
 
-form {
-    display: inline-block;
-    text-align: center;
+.contact-form {
+
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 
 .contact-form {
     padding-bottom: 50px;
-    max-width: 50%;
+    max-width: 15%;
 }
 
 .contact-form h2 {
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
 }
+
+
+/*----------------------------------------- Horses in Training - A Step Too Far*/
+
+h1 {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 60px;
+    letter-spacing: 2px;
+    color: #99c455;
+}
+
+p {
+    padding: 15px;
+}
+
+.steps-silks {
+    height: 200px;
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
