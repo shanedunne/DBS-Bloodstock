@@ -125,6 +125,11 @@ h1 {
 
 p {
     padding: 15px;
+
+}
+
+.steps-bio {
+    margin-top: -800px;
 }
 
 .steps-silks {
@@ -135,10 +140,13 @@ p {
     margin-right: auto;
 }
 
+.slide {
+    margin-top: -80px;
+}
+
 
 /*----------------------------------------- Timeline - source https://codepen.io/krishnab/pen/OPwqbW/ */
 
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,900);
 
 body{
   font-family: 'Open Sans', sans-serif;
@@ -456,4 +464,6 @@ header h1{
     text-align: left;
   }
 }
+
+/*----------------------------------------- Pedigree tree - source https://codepen.io/jguerra/pen/eYpqEgw */
 
