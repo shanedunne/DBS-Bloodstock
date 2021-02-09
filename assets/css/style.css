@@ -118,19 +118,26 @@ h1 {
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
-    font-size: 50px;
+    font-size: 70px;
     letter-spacing: 2px;
     color: #99c455;
 }
 
+.steps-bio h5 {
+    padding-top: 15px;
+    padding-left: 30px;
+    color: #99c455;
+}
+
+
 p {
-    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
 
 }
 
-.steps-bio {
-    margin-top: -800px;
-}
+
 
 .steps-silks {
     height: 200px;
@@ -140,13 +147,25 @@ p {
     margin-right: auto;
 }
 
-.slide {
-    margin-top: -80px;
+@media (min-width: 992px) {  
+    .slider-steps {
+         margin-bottom: 40px;;
+        }
+    .steps-bio {
+       margin-top: -45px;
+    }
+    .steps-silks {
+    display: none;
+}
 }
 
 
 /*----------------------------------------- Timeline - source https://codepen.io/krishnab/pen/OPwqbW/ */
 
+.steps-timeline {
+    display: flex;
+  justify-content: center;
+}
 
 body{
   font-family: 'Open Sans', sans-serif;
@@ -349,7 +368,7 @@ header h1{
 .direction-r .desc {
   position: relative;
   margin: 1em 1em 0 1em;
-  padding: 1em;
+  padding: 0em;
   z-index: 15;
 }
 
@@ -465,5 +484,34 @@ header h1{
   }
 }
 
-/*----------------------------------------- Pedigree tree - source https://codepen.io/jguerra/pen/eYpqEgw */
+.steps-timeline ul a {
+    color: rgb(69, 78, 123);
+    text-decoration: underline;
+}
 
+.steps-timeline ul a:hover {
+    color: #99c455;
+}
+
+
+/*----------------------------------------- mares.html*/
+
+.celerina-page img {
+    width: 767.5px;
+    height: 1110px;
+}
+
+.celerina-bio h1 {
+    color: #99c455;
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 22px;
+}
+
+.celerina-bio h3 {
+    color: #99c455;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 22px;
+    padding-bottom: 20px;
+}
