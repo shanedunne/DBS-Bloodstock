@@ -49,27 +49,27 @@ body {
 }
 
 /*----------------------------------------- Banner*/
-
+/*
 .slider-holder {
     background-color: #fafafa;
 }
 
-.carousel-item .img-first {
+.slider-holder .carousel-item .img-first {
     object-fit: contain;
 }
 
-.carousel {
+.slider-holder .carousel {
     width: 85%;
 
 }
 
-.carousel-inner {
+.slider-holder .carousel-inner {
     width: 100%;
     height: 90vh;
     text-align: center;
     margin: 0 0 0 0;
 }
-
+*/
 /*----------------------------------------- jumbotron*/
 .jumbotron {
         background-color: #99c455;
