@@ -6,9 +6,12 @@
 
 body {
     font-family: 'Open sans', sans-serif;
+    background-color: #fafafa;
 }
 
-
+.container-fluid {
+    padding: 0;
+}
 
 .navbar-brand {
     padding: 0;
@@ -37,8 +40,8 @@ body {
 }
 
 .navbar .nav-item a:hover {
-    color: #fafafa !important;
-    background-color: #99c455;
+    color: #52618f !important;
+
 }
 
 .nav-link {
@@ -48,42 +51,71 @@ body {
  
 }
 
-/*----------------------------------------- Banner*/
-/*
-.slider-holder {
+
+/*----------------------------------------- jumbotron*/
+
+.jumbo-bg-color {
     background-color: #fafafa;
 }
 
-.slider-holder .carousel-item .img-first {
-    object-fit: contain;
-}
-
-.slider-holder .carousel {
-    width: 85%;
-
-}
-
-.slider-holder .carousel-inner {
-    width: 100%;
-    height: 90vh;
-    text-align: center;
-    margin: 0 0 0 0;
-}
-*/
-/*----------------------------------------- jumbotron*/
 .jumbotron {
-        background-color: #99c455;
+        background-color: #fafafa;
+        padding: 0 !important;
+ 
 }
 
 .display-4 {
-    color: #fafafa;
+    color: black;
 }
 
 .jumbotron h1 {
-    color: #fafafa;
+    color: black;
     text-transform: uppercase;
 }
+.dbs-jumbotron {
+    padding-top: 30px;
+    padding-right: 0px;
+}
 
+.jumbotron .btn-lg {
+    background-color: #99c455;
+    color: #fafafa;
+    border-color: #99c455;
+}
+
+.lead {
+    padding-top: 0 !important;
+}
+
+/*----------------------------------------- News*/
+
+.news {
+    background-color: #fafafa;
+    padding-top: 30px;
+}
+
+.source {
+    color: #99c455;
+}
+
+.source:hover {
+    color: #99c455;
+}
+
+.btn-news {
+    background-color: #99c455;
+    color: #fafafa;
+}
+
+.btn-news:hover {
+    border-color: #99c455;
+    color: #fff;
+}
+
+.news h2 {
+    text-align: center;
+    padding-bottom: 10px;
+}
 
 /*----------------------------------------- Footer*/
 
@@ -98,6 +130,8 @@ footer {
     width: 100%;
     background-color:#99c455;
 }
+
+
 
 /* 
 img .footer-logo {
@@ -183,6 +217,24 @@ h1 {
     color: #99c455;
 }
 
+@media (max-width: 575.98px) { 
+    h1 {
+        font-size: 55px;
+    }
+ }
+
+ @media (max-width: 375px) { 
+    h1 {
+        font-size: 45px;
+    }
+ }
+
+ @media (max-width: 320px) { 
+    h1 {
+        font-size: 35px;
+    }
+ }
+
 .steps-bio h5 {
     padding-top: 45px;
     padding-left: 30px;
@@ -195,6 +247,13 @@ p {
     padding-right: 30px;
     padding-top: 45px;
 
+}
+
+.steps-bio img {
+    width: 90%;
+    height: 55%;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
 
@@ -211,9 +270,9 @@ p {
     .slider-steps {
          margin-bottom: 40px;;
         }
-    .steps-bio {
+   /* .steps-bio {
        margin-top: -45px;
-    }
+    } */
     .steps-silks {
     display: none;
 }
@@ -225,6 +284,7 @@ p {
 .steps-timeline {
     display: flex;
   justify-content: center;
+  margin-bottom: 30px;
 }
 
 body{
@@ -553,6 +613,24 @@ header h1{
     color: #99c455;
 }
 
+@media(min-width: 768px){
+    .steps-timeline {
+        margin-top: -100px;
+    }
+}
+
+@media (max-width: 470px) { 
+    .steps-timeline {
+        margin-top: 40px;
+    }
+ }
+
+ @media (max-width: 375px) { 
+    .steps-timeline {
+        margin-top: 80px;
+    }
+ }
+
 
 /*----------------------------------------- mares.html*/
 
@@ -575,6 +653,10 @@ header h1{
 
 .celerina-bio p {
     padding: 0;
+}
+
+.celerina-bio .celerina-bio-text p {
+    padding-left: 20px;
 }
 
 .celerina-bio h3 {
