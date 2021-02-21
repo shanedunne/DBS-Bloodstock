@@ -35,7 +35,14 @@ body {
 
 .navbar .nav-item a {
     color: #99c455 !important;
-    padding-top: 56px;
+    padding-top: 20px;
+    padding-left: 5px;
+
+}
+
+.navbar-collapse {
+    z-index: 1;
+    background-color: #fafafa;
 
 }
 
@@ -44,12 +51,18 @@ body {
 
 }
 
-.nav-link {
-
-    height: 137px;
-    padding-bottom: 0;
- 
+.navbar {
+    height: 73px !important;
 }
+
+
+.slider-holder {
+    padding-top: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100vh;
+}
+
 
 
 /*----------------------------------------- jumbotron*/
@@ -61,16 +74,23 @@ body {
 .jumbotron {
         background-color: #fafafa;
         padding: 0 !important;
- 
+}
+
+.jumbo-bg-color {
+    padding: 0;
 }
 
 .display-4 {
     color: black;
+    font-size: 45px;
 }
 
 .jumbotron h1 {
     color: black;
     text-transform: uppercase;
+    font-size: 55px;
+    padding-bottom: 20px;
+
 }
 .dbs-jumbotron {
     padding-top: 30px;
@@ -87,11 +107,25 @@ body {
     padding-top: 0 !important;
 }
 
+@media (max-width: 576px) { 
+    .jumbotron h1 {
+        font-size: 40px;
+    }
+    .display-4 { 
+        font-size: 30px;
+    }
+    .lead {
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
+    }
+}
+
 /*----------------------------------------- News*/
 
 .news {
     background-color: #fafafa;
-    padding-top: 30px;
+
 }
 
 .source {
@@ -112,9 +146,9 @@ body {
     color: #fff;
 }
 
-.news h2 {
+.news-header h2 {
     text-align: center;
-    padding-bottom: 10px;
+    padding-left: 32px;
 }
 
 /*----------------------------------------- Footer*/
@@ -131,6 +165,9 @@ footer {
     background-color:#99c455;
 }
 
+footer p {
+    padding-left: 10px;
+}
 
 
 /* 
@@ -178,7 +215,7 @@ footer p {
 
 #contact-form input {
     max-width: 100%;
-    width: 230px;
+    width: 253px;
 }
 
 #contact-form button {
@@ -208,7 +245,7 @@ textarea:focus {
 
 /*----------------------------------------- Horses in Training - A Step Too Far*/
 
-h1 {
+.steps-header h1 {
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -218,19 +255,26 @@ h1 {
 }
 
 @media (max-width: 575.98px) { 
-    h1 {
+    .steps-header h1 {
         font-size: 55px;
+        padding-top: 60px;
+    }
+ }
+
+@media (max-width: 991.98px) { 
+    .steps-header h1 {
+        padding-bottom: 0px;
     }
  }
 
  @media (max-width: 375px) { 
-    h1 {
+    .steps-header h1 {
         font-size: 45px;
     }
  }
 
  @media (max-width: 320px) { 
-    h1 {
+    .steps-header h1 {
         font-size: 35px;
     }
  }
@@ -242,7 +286,7 @@ h1 {
 }
 
 
-p {
+.steps-bio p {
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 45px;
